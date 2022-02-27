@@ -26,7 +26,7 @@ header {
 header h1 {
     color: var(--primary-color);
     background-color: var(--tertiary-color);
-    padding: 5px;
+    padding: 3px;
     border: 2px solid var(--primary-color);
 }
 
@@ -53,10 +53,40 @@ header nav ul li a {
 }
 /*HEADER STYLES END*/
 
+/*HERO START*/
+.hero {
+    padding: 50px;
+    background-image: url(../images/hero.jpg);
+    background-position: 50%;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: right;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--quatrary-color);
+    padding: 5px;
+    /*help pushing text to bottom right corner*/
+}
+/*HERO END*/
+
+.section-title {
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: flex;
+    border: 3px solid var(--secondary-color);
+    margin-right: 90%;
+}
+
+.work h3 {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*FOOTER STYLES START*/
 footer {
-    padding: 30px;
-    background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
 }
@@ -79,3 +109,4 @@ footer ul li a {
     font-size: 1.5vw;
     color: var(--primary-color);
 }
+/*FOOTER STYLES END*/
