@@ -83,11 +83,17 @@ header nav ul li a {
     border-right: 3px solid var(--secondary-color);
 }
 
-.work h3 {
-    padding: 15px;
+/*ABOUT ME START*/
+.about-text {
+    float: right;
     display: flex;
-    flex-wrap: wrap;
 }
+
+.about-text p {
+    padding: 5px 30px;
+    margin: 10px;
+}
+/*ABOUT ME END*/
 
 /*FOOTER STYLES START*/
 footer {
