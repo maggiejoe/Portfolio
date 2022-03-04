@@ -99,7 +99,13 @@ header nav ul li a {
 /*ABOUT ME END*/
 
 /*WORK START*/
-
+.project-1 img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: auto;
+}
 
 /*WORK END*/
 
