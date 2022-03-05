@@ -124,7 +124,6 @@ header nav ul li a {
     align-items: center;
     justify-content: center;
     width: 800px;
-    position: relative;
 }
 
 .project-card-1 {
@@ -168,8 +167,13 @@ header nav ul li a {
 
 .row-1 {
     display: flex;
+    flex-wrap: wrap;
 }
 
+.row-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
 /*WORK END*/
 
 /*FOOTER STYLES START*/
