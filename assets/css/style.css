@@ -3,6 +3,7 @@
     --secondary-color: #A0C790;
     --tertiary-color: #fffef2;
     --quatrary-color: #1F381F;
+    --quinary-color: white;
 }
 
 * {
@@ -87,6 +88,7 @@ header nav ul li a {
 /*HERO END*/
 
 .section-title {
+    color: var(--quatrary-color);
     width: 50px;
     padding: 5px 30px;
     margin: 10px;
@@ -110,41 +112,34 @@ header nav ul li a {
 /*ABOUT ME END*/
 
 /*WORK START*/
-.work {
-    width: 50px;
-    padding: 5px 30px;
-    margin: 10px;
-    text-align: right;
-    justify-content: right;
-    margin-left: 30px;
+/*.main-project {
+    flex: 0 0 100%;
+    padding: 20px;
     display: flex;
-    border-right: 3px solid var(--secondary-color);
+    flex-wrap: wrap;
+    justify-content: center;
+}*/
+
+.project-card-1 {
+    padding: 10px;
+    flex: 0 0 70%;
 }
 
 .projects {
-    margin: 30px;
-    padding-right: 0px;
-    width: 90%;
+    flex: 4;
+    padding: 20px;
     display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-}
-/*??NEED TO FIX THIS FIRST PROJECT IMAGE*/
-/*.project-1 img {
-    width: 75%;
-    padding: 15%;
-}*/
-
-.other-projects {
-    align-content: center;
-}
-
-.other-projects div img {
-    width: 75%;
-    padding: 1%;
+    flex-wrap: wrap;
     justify-content: center;
-    float: right;
-    align-self: center;
+  }
+
+.project-cards {
+    padding: 10px;
+    flex: 0 0 40%;
+}  
+
+.project-cards img {
+    width: 100%;
 }
 /*WORK END*/
 
@@ -169,8 +164,49 @@ footer ul {
 
 footer ul li a {
     padding: 15px;
-    font-weight: bold;
-    font-size: 1.5vw;
-    color: var(--primary-color);
+    font-weight: normal;
+    font-size: 1.2vw;
+    color: var(--quatrary-color);
+    text-shadow: 2px 2px var(--secondary-color);
 }
 /*FOOTER STYLES END*/
+
+/*MEDIA QUERIES START*/
+/*
+@media screen and (max-width: 900px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100px;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 15px;
+    }
+
+    footer h2,
+    footer h2 ul {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
+}
+*/
+/*MEDIA QUERIES END*/
