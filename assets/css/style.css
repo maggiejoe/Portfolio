@@ -132,13 +132,23 @@ header nav ul li a:hover {
 
 .project-card-1 img {
     width: 70%;
-    padding: 10px;
+    margin: 10px;
+    opacity: 50%;
+    border: 4px solid var(--quatrary-color);
+}
+.project-card-1 img:hover,
+.project-cards img:hover {
+    opacity: 100%;
+    border: 4px solid var(--secondary-color);
 }
 
 .project-cards img {
     width: 35%;
-    padding: 10px;
+    margin: 10px;
+    opacity: 50%;
+    border: 4px solid var(--quatrary-color);
 }
+
 /* WORK END */
 
 /*FOOTER STYLES START*/
