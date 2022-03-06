@@ -146,16 +146,10 @@ header nav ul li a:hover {
     background-color: var(--quatrary-color);
 }
 
-.description p {
-    position: absolute;
-    font-size: xx-small;
-    /* padding: 9px 113px 9px 5px;
-    bottom: 30px;
-    left: 10px;
-    color: var(--tertiary-color);
-    background-color: var(--quatrary-color); */
-
+.description span {
+    font-size: small;
 }
+
 .project-card-1 img {
     width: 70%;
     margin: 10px;
