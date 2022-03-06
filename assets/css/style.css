@@ -3,7 +3,6 @@
     --secondary-color: #A0C790;
     --tertiary-color: #fffef2;
     --quatrary-color: #1F381F;
-    --quinary-color: white;
 }
 
 * {
@@ -123,13 +122,40 @@ header nav ul li a:hover {
 /*ABOUT ME END*/
 
 /* WORK START */
-.work article {
+.work {
     display: flex;
     flex-wrap: wrap;
-    padding: 5px 30px;
-    margin: 20px;
 }
 
+.work section {
+    justify-content: center;
+}
+
+.project-card-1,
+.project-cards{
+    position: relative;
+}
+
+.project-card-1 h3,
+.project-cards h3{
+    position: absolute;
+    padding: 9px;
+    margin-left: 10px;
+    bottom: 50px;
+    color: var(--tertiary-color);
+    background-color: var(--quatrary-color);
+}
+
+.description p {
+    position: absolute;
+    font-size: xx-small;
+    /* padding: 9px 113px 9px 5px;
+    bottom: 30px;
+    left: 10px;
+    color: var(--tertiary-color);
+    background-color: var(--quatrary-color); */
+
+}
 .project-card-1 img {
     width: 70%;
     margin: 10px;
@@ -139,7 +165,6 @@ header nav ul li a:hover {
 .project-card-1 img:hover,
 .project-cards img:hover {
     opacity: 100%;
-    border: 4px solid var(--secondary-color);
 }
 
 .project-cards img {
@@ -148,6 +173,7 @@ header nav ul li a:hover {
     opacity: 50%;
     border: 4px solid var(--quatrary-color);
 }
+
 
 /* WORK END */
 
