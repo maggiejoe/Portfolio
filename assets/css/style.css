@@ -99,6 +99,7 @@ header nav ul li a:hover {
 }
 /*HERO END*/
 
+/* SECTION TITLES STYLINGS */
 .section-title {
     color: var(--quatrary-color);
     border-right: 3px solid var(--secondary-color);
@@ -127,8 +128,11 @@ header nav ul li a:hover {
     flex-wrap: wrap;
 }
 
-.work section {
-    justify-content: center;
+.work-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
 }
 
 .project-card-1,
@@ -136,20 +140,23 @@ header nav ul li a:hover {
     position: relative;
 }
 
+/* TITLES INSIDE IMAGES */
 .project-card-1 h3,
 .project-cards h3{
     position: absolute;
     padding: 9px;
     margin-left: 10px;
     bottom: 50px;
+    font-size:small;
     color: var(--tertiary-color);
     background-color: var(--quatrary-color);
 }
 
 .description span {
-    font-size: small;
+    font-size: xx-small;
 }
 
+/* IMAGE STYLING */
 .project-card-1 img {
     width: 70%;
     margin: 10px;
