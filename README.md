@@ -35,7 +35,7 @@ https://maggiejoe.github.io/Portfolio/
 * :white_check_mark: When the portfolio webpage is loaded, the following ar present
         * Developer's name
         * A recent photo
-        * Links to sections  :x:  about them, their work & contact infomartion
+        * Links to sections ➡️ about them, their work & contact infomartion
 * :white_check_mark: When links are clicked in the navigation bar, the UI scrolls to the corresponding section
 * :white_check_mark: The work section has titled images of the developers work
 * :white_check_mark: The developers first application should be larger than the other applications
@@ -46,7 +46,7 @@ https://maggiejoe.github.io/Portfolio/
 ## Deployment
 
 * :white_check_mark: Application Deploys @ live URL
-* :x: Application loads error free
+* :white_check_mark: Application loads error free
 * :white_check_mark: GitHub URL submitted
 * :white_check_mark: GitHub repo contains application code
 
