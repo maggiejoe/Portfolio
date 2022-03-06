@@ -66,42 +66,44 @@ header nav ul li a {
 
 /*HERO START*/
 .hero {
-    padding: 100px 20px 20px 100px;
+    padding: 100px 20px 0 0;
     background-image: url(../images/hero-1.jpg);
     background-attachment: fixed;
     background-position: 75%;
     background-size: cover;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .hero-text {
     font-family: garamond;
-    width: auto;
     margin-left: auto;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     color: var(--tertiary-color);
-    padding: 5px;
+    padding: 5px 5px 15px 0;
     font-weight: bold;
     text-shadow: 2px 2px #1F381F;
+}
+
+.hero img {
+    width: 15%;
 }
 /*HERO END*/
 
 .section-title {
     color: var(--quatrary-color);
     width: 50px;
-    padding: 5px 30px;
-    margin: 10px;
+    padding: 5px 15px;
+    margin: 10px 10px 10px 30px;
     text-align: right;
     justify-content: right;
-    margin-left: 30px;
     display: flex;
     border-right: 3px solid var(--secondary-color);
 }
 
 /*ABOUT ME START*/
 .about-text {
-    float: right;
     display: flex;
 }
 
@@ -111,70 +113,25 @@ header nav ul li a {
 }
 /*ABOUT ME END*/
 
-/*WORK START*/
-#my-work {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    display: inline-flex;
-    padding: 1px;
-}
-.work-section {
+/* WORK START */
+.work {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    width: 800px;
 }
 
 .project-card-1 {
+    background: var(--primary-color);
+    width: 80%;
+    height: 100%;   
     padding: 10px;
-    flex: 0 0 70%;
 }
-
-.project-card-1 img {
-    margin: 15px;
-    width: 50%;
-    border: 4px solid var(--primary-color);
-}
-
-.projects {
-    flex: auto;
-    padding: 5px 30px 5px 0;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-.projects-1 {
-    flex: 4;
-    /*padding: 5px 30px 5px 0;*/
-    margin: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.project-cards {
-    padding: 5px;
-    /*flex: 0 0 40%;*/
-}  
 
 .project-cards img {
-    width: 250px;
-    height: 100px;
-    margin-left: 45px;
-    border: 4px solid var(--primary-color);
-    flex: 10;
+    width: 20%;
+    padding: 10px;
 }
-
-.row-1 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.row-2 {
-    display: flex;
-    flex-wrap: wrap;
-}
-/*WORK END*/
+/* WORK END */
 
 /*FOOTER STYLES START*/
 footer {
@@ -207,31 +164,7 @@ footer ul li a {
 /*MEDIA QUERIES START*/
 /*
 @media screen and (max-width: 900px) {
-    header {
-        padding-bottom: 0;
-        justify-content: center;
-    }
-
-    header h1 {
-        width: 100px;
-        text-align: center;
-    }
-
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-
-    header nav ul li a {
-        font-size: 15px;
-    }
-
-    footer h2,
-    footer h2 ul {
-        text-align: center;
-        width: 100%;
-    }
+   
 }
 
 @media screen and (max-width: 768px) {
